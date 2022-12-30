@@ -22,7 +22,7 @@ public class HWone {
         Integer i = (int) (Math.random() * (2000 + 1)) - 1000;
 
         // 2. Посчитать и сохранить в n номер старшего значащего бита выпавшего числа
-        int n = Integer.toBinaryString(i).length();
+        int n = Integer.toBinaryString(Math.abs(i)).length();
 
         // 3. Найти все кратные n числа в диапазоне от i до Short.MAX_VALUE сохранить в
         // массив m1
@@ -106,7 +106,7 @@ public class HWone {
     }
     // 2 
     private static Integer saveHightByte(int n) {
-        return Integer.toBinaryString(n).length();
+        return Integer.toBinaryString(Math.abs(n)).length();
         
     }
     // 3 
