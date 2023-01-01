@@ -72,7 +72,7 @@ public class Task4 {
         long start2 = System.currentTimeMillis();
         StringBuilder newStrBld = changeEqual2(str10000);
         long end2 = System.currentTimeMillis();
-        System.out.println(end1 - start1);
+        System.out.println(end2 - start2);
 
     }
 
