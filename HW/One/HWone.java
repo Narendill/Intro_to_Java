@@ -7,7 +7,7 @@
 Пункты реализовать в методе main
 *Пункты реализовать в разных методах */
 
-package HW.One;
+package One;
 
 import java.io.File;
 import java.io.FileWriter;
